@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: #b3d6ff;
+    width: 100%;
+    height: 200px; 
+}
+.content {
+    background-color: #e9edf0;
+}
+.content-block {
+    position: relative;
+    left: 50%;
+    transform: translateX(-400px);
+}
+.left-bar {
+    float: left;
+    width: 200px;
+    height: 300px;
+    background-color: #f09a9d;
+}
+.content-bar {
+    float: left;
+    background-color: #f5cf8e;
+    padding: 20px;
+    width: 600px;
+    height: 500px;
+}
+.my-photo {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+.info, .footer {
+    clear: both;
+    position: relative;
+    left: 50%;
+    transform: translateX(-790px);
+    background-color: #2a60a7;
+}
+.info-block, .footer-block {
+    float: left;
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    background-color: #b3d6ff;
+} 
